@@ -19,3 +19,13 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+Thumbs.db
+db.json
+*.log
+public/
+.deploy*/
+src/_drafts
+package-lock.json
+
+GUIDE.txt
