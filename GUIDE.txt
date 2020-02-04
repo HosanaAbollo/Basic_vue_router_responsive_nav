@@ -1,0 +1,23 @@
+INCLUSION DE CSS ET JS
+CSS : 
+- Aller dans le dossier assets et y mettre style.css
+- Puis dans le componant app ajouter en bas : 
+    @import url('assets/style.css')
+JS : 
+- Aller dans le dossier assets et y mettre made.js 
+- Puis dans main.js ajouter : import './assets/main.js'
+    - ecrire dans made.js :   $(document).ready(function(){
+        alert("mamen")
+    })
+
+
+ROUTER
+    -  Installer vue-router : npm i vue-router
+    -  Aller dans main.js et créer les routes
+    - Ensuite aller dans App.vue et utiliser le <router-view></router-view>
+
+- Annuler le bouton si le mail est moins de 2 caracteres
+<button>v-bind:disabled="email.length < 2 "</button>
+
+- class binding
+v-bind:class="{ active: isActive }"  ==== :class="{ active: isActive }"
